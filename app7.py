@@ -11,7 +11,7 @@ from symspellpy import SymSpell, Verbosity
 import google.generativeai as genai
 
 # Konfigurasi API Gemini dengan API key Anda
-GEMINI_API_KEY = "AIzaSyCEv92gTRSe3jzoD66yPrp9oRoOP7fE1gQ"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Inisialisasi model Gemini
